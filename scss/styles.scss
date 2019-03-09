@@ -1,8 +1,33 @@
-// Compile settings are in .vscode/settings.json 
-// Files are compiled to /css for development and /dist/css for build
+/**
+ * Compile settings are in .vscode/settings.json
+ * Files are compiled to /css for development and /dist/css for build
+ */
 
-@import '../node_modules/bootstrap/scss/bootstrap.scss' // Import all of Bootstrap
+@import url("https://fonts.googleapis.com/css?family=Poppins:700");
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss"; // Import all of Bootstrap
+
+// ==========================================================================
+// Variable Overrides
+// ==========================================================================
 
 
 
-// Add variable overrides here
+
+// ==========================================================================
+// Typography
+// ==========================================================================
+
+// Enable responsive font sizes
+$enable-responsive-font-sizes: true;
+
+
+html {
+  font-size: 16px; // Base font size
+}
+
+// Headings
+h1 {
+  font-family: "Poppins", sans-serif;
+  @include rfs(64);
+}
