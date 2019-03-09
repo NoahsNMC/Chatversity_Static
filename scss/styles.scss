@@ -3,22 +3,29 @@
  * Files are compiled to /css for development and /dist/css for build
  */
 
-@import url("https://fonts.googleapis.com/css?family=Poppins:700");
-
-@import "../node_modules/bootstrap/scss/bootstrap.scss"; // Import all of Bootstrap
-
 // ==========================================================================
 // Variable Overrides
 // ==========================================================================
 
+//
+// Colors
+// ==========================================================================
+@import url("https://fonts.googleapis.com/css?family=Poppins:700");
+$theme-colors: (
+  "primary": #0074d9,
+  "secondary":#00FFD4,
+  "danger": #ff4136
+);
 
 
+// * Import Bootstrap * //
+@import "../node_modules/bootstrap/scss/bootstrap.scss"; // Import all of Bootstrap
 
 // ==========================================================================
 // Typography
 // ==========================================================================
 
-// Enable responsive font sizes
+// * Enable responsive font sizes * //
 $enable-responsive-font-sizes: true;
 
 
@@ -26,8 +33,45 @@ html {
   font-size: 16px; // Base font size
 }
 
-// Headings
+//
+// Typography
+// ==========================================================================
+
+
 h1 {
   font-family: "Poppins", sans-serif;
   @include rfs(64);
+}
+h2 {
+
+}
+h3 {
+
+}
+h4 {
+
+}
+h5 {
+  font-family: "Roboto", sans-serif;
+  @include rfs(24);
+  font-weight: normal;
+}
+h6 {
+
+}
+
+// ==========================================================================
+// Generic
+// ==========================================================================
+
+#_primaryNavigation {
+  transition: 0.5s ease padding;
+  &.tiny {
+    padding: 0.5rem 1rem;
+    background: #aaa;
+  } 
+}
+
+.navbar {
+  padding: 1rem 1rem;
 }
