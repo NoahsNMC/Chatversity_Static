@@ -21,7 +21,7 @@
    <body>
 
      <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-primary">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -50,18 +50,25 @@
               <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
+          <div>
+            <button class="btn btn-outline-secondary">Sign up</button>
+            <button class="btn btn-primary">
+              Login
+            </button>
+          </div>
+          <!-- <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+          </form> -->
         </div>
       </nav>
      </header>
 
+     <!-- Hero Section -->
      <section class="section d-flex align-items-center bg-primary" style="height:100vh;">
         <div class="container">
             <div class="row">
-              <div class="col-12">
+              <div class="col-12 col-md-8">
                   <span class="text-secondary">For Students, Teachers and Universities</span>
                   <h1 class="text-white">Chat for 
                     <span class="text-secondary" id="#">
@@ -69,7 +76,7 @@
                       <!-- TODO: add typed JS -->
                     </span>
                   </h1>
-                  <p class="text-white">Connecting and collaborating with your students and fellow classmates has never been easier.</p>
+                  <h5 class="text-white">Connecting and collaborating with your students and fellow classmates has never been easier.</h5>
               </div>
             </div>
            </div>
