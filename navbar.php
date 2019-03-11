@@ -1,4 +1,4 @@
-<nav id="_primaryNavigation" class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+<nav id="_primary-navigation" class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
     <a class="navbar-brand" href="#"><img src="logo-white.svg" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
