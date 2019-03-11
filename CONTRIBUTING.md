@@ -16,8 +16,9 @@
     1. Navigate to your Branch.
     2. Click Create New Pull Request.
     3. Submit the Pull Request.
-    4. Merge the Pull Request into Master.
-    5. Delete your Branch on GitHub.
+    4. Wait for Approval.
+    5. Merge the Pull Request into Master.
+    6. Delete your Branch on GitHub.
 7. Checkout to Master ```git checkout master```
 8. Delete your Branch locally ```git branch -d Feature/Navbar```
 9. Pull the latest changes to your machine ```git pull```

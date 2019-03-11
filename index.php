@@ -38,7 +38,7 @@
      // Shrink header navigation on scroll
      $(document).ready(function(){
       $(window).on("scroll", function () {
-          $('#_primaryNavigation').toggleClass('tiny', $(document).scrollTop() > 80);
+          $('#_primary-navigation').toggleClass('tiny', $(document).scrollTop() > 80);
         });
      });
      </script>
