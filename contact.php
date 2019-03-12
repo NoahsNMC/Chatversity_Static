@@ -18,26 +18,25 @@
     <!--Navbar Include-->
     <?php include("navbar.php"); ?>
 
-    <section class="d-flex align-items-center" style="height:85vh;">
+    <section class="d-flex align-items-center" style="height:100vh;">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12">
-                <h1 class="text-center text-primary">Contact Us</h1>
+                <h1 class="text-center text-primary mb-4">Contact Us</h1>
             </div>
             <div class="col-sm-2"></div>
             <!-- Contact info -->
-            <div class="col-sm-4">
-                <h3 class="text-secondary">We'd love to hear from you</h3>
+            <div class="col-sm-5">
+                <h3 class="text-secondary" style="font-size: 1.6em">We'd love to hear from you</h3>
                 <p>
                     Please contact us if you have any questions or comments. We'd love to get user input to further
-                    enhance
-                    your experience.
+                    enhance your experience.
                 </p>
                 <p><span class="glyphicon glyphicon-map-marker mr-4"></span>385 Noah's Place Suite 878</p>
                 <p><span class="glyphicon glyphicon-earphone mr-4"></span>877-295-7945</p>
                 <p><span class="glyphicon glyphicon-envelope mr-4"></span>trash@noahosterhout.com</p>
             </div>
-            <div class="col-sm-1"></div>
+            <!-- <div class="col-sm-1"></div> -->
             <!-- Contact form -->
             <div class="col-sm-3">
                 <form>
