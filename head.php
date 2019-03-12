@@ -1,5 +1,5 @@
 <!--Import Google Icon Font-->
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons|Poppins|Nunito" rel="stylesheet">
 <!--Import CSS Styles-->
 <link type="text/css" rel="stylesheet" href="css/styles.css"  media="screen,projection"/>
 
@@ -8,6 +8,7 @@
 <meta charset="utf-8">
 
 <!-- Favicon -->
+<link rel = "icon" href = "static/media/logo.png">
 <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">

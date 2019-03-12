@@ -10566,8 +10566,11 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-html {
+html, body {
   font-size: 16px;
+  font-family: "Poppins", "Nunito", "Proxima Nova", sans-serif;
+  height: 100%;
+  width: 100%;
 }
 
 h1 {
@@ -10593,16 +10596,58 @@ h5 {
   }
 }
 
-#_primaryNavigation {
+#_primary-navigation {
   -webkit-transition: 0.5s ease padding;
   transition: 0.5s ease padding;
 }
 
-#_primaryNavigation.tiny {
+#_primary-navigation.tiny {
   padding: 0.5rem 1rem;
   background: #aaa;
 }
 
 .navbar {
   padding: 1rem 1rem;
+}
+
+#custom-footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #282828;
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+
+.footer-split {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.2em;
+  color: #f8f9fa;
+}
+
+footer > hr {
+  background-color: white;
+  width: 60%;
+}
+
+.footer-link {
+  color: white;
+}
+
+.footer-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+@media (max-width: 991px) {
+  .footer-link {
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .footer-split {
+    display: none;
+  }
 }
