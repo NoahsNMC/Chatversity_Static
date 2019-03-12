@@ -10,10 +10,13 @@
 //
 // Colors
 // ==========================================================================
-@import url("https://fonts.googleapis.com/css?family=Poppins:700");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,600,700");
+
 $theme-colors: (
-  "primary": #0074d9,
-  "secondary":#00FFD4,
+  "primary": #26B1FF,
+  "secondary":#0E425F,
+  "light":#96B7C9,
+  "lighter":#F1F8FC,
   "danger": #ff4136
 );
 
@@ -38,44 +41,101 @@ html, body {
 //
 // Typography
 // ==========================================================================
-
+h1,h2,h3,h4,h5,h6 { display:block; }
 
 h1 {
   font-family: "Poppins", sans-serif;
+  font-weight: 700;
   @include rfs(64);
 }
 h2 {
 
 }
 h3 {
-
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  @include rfs(48);
 }
 h4 {
 
 }
 h5 {
-  font-family: "Roboto", sans-serif;
   @include rfs(24);
-  font-weight: normal;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
 h6 {
 
 }
+p {
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 28px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+.overline {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  display: block;
+}
+
 
 // ==========================================================================
 // Navbar Styles
 // ==========================================================================
 
 #_primary-navigation {
-  transition: 0.5s ease padding;
+  transition: 0.5s ease padding, box-shadow 0.5s ease;
   &.tiny {
     padding: 0.5rem 1rem;
     background: #aaa;
+    box-shadow: 0px 4px 12px rgba(21, 157, 246, 0.2);
   } 
 }
 
-.navbar {
+#_primary-navigation {
   padding: 1rem 1rem;
+}
+
+/* change the brand and text color */
+#_primary-navigation #_primary-navigation,
+#_primary-navigation #_primary-navigation {
+ /* Or... Not?? */
+}
+
+/* change the link color */
+#_primary-navigation .nav-link {
+  color: map-get($theme-colors, "light")
+}
+
+/* change the color of active or hovered links */
+#_primary-navigation .nav-item.active .nav-link,
+#_primary-navigation .nav-item:hover .nav-link {
+  color: map-get($theme-colors, "primary")
+}
+
+/* for dropdown only - change the color of droodown */
+#_primary-navigation .dropdown-menu {
+  background-color: #ff5500;
+}
+#_primary-navigation .dropdown-item {
+  color: #ffffff;
+}
+#_primary-navigation .dropdown-item:hover,
+#_primary-navigation .dropdown-item:focus {
+  color: #333333;
+  background-color: rgba(255,255,255,.5);
 }
 
 // ==========================================================================
