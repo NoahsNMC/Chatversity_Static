@@ -16,7 +16,7 @@
   <div class="container">
     <div class="row align-items-center" style="min-height:100vh;">
     <div class="col-12">
-    <h1 style="margin-top:100px; text-align:center; font-size: 50px">Pricing Overview</h1>
+ <h1 style="margin-top:100px; text-align:center; font-size: 50px; color:#26B1FF">Pricing Overview</h1>
     </div>
       <div class="col-12 col-mg-6 col-lg-3 mb-4">
         <ul class="price">
