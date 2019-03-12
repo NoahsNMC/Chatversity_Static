@@ -10729,12 +10729,14 @@ a.text-lighter:hover, a.text-lighter:focus {
 
 html, body {
   font-size: 16px;
+  font-family: "Poppins", "Nunito", "Proxima Nova", sans-serif;
   height: 100%;
   width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
   display: block;
+  .
 }
 
 h1 {
@@ -10833,6 +10835,46 @@ p {
   padding: 1rem 1rem;
 }
 
+#custom-footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #282828;
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+
+.footer-split {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.2em;
+  color: #f8f9fa;
+}
+
+footer > hr {
+  background-color: white;
+  width: 60%;
+}
+
+.footer-link {
+  color: white;
+}
+
+.footer-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+@media (max-width: 991px) {
+  .footer-link {
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .footer-split {
+    display: none;
+  }
 /* change the brand and text color */
 #_primary-navigation #_primary-navigation,
 #_primary-navigation #_primary-navigation {

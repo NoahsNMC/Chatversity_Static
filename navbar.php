@@ -34,3 +34,12 @@
         </form> -->
     </div>
 </nav>
+
+<script type="text/javascript">
+     // Shrink header navigation on scroll
+     $(document).ready(function(){
+      $(window).on("scroll", function () {
+          $('#_primary-navigation').toggleClass('tiny', $(document).scrollTop() > 80);
+        });
+     });
+</script>

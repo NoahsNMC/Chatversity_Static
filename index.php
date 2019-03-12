@@ -34,7 +34,7 @@
             </div>
            </div>
      </section>
-
+     
      <!-- How does it work -->
      <section class="section bg-lighter">
        <div class="container">
