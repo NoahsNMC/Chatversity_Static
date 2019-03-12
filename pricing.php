@@ -13,9 +13,49 @@
 <body>
 
  <!-- PRICING-TABLE CONTAINER -->
- <h1 style="margin-top:100px; text-align:center; font-size: 50px">Pricing Overview</h1>
+  <div class="container">
+    <div class="row align-items-center" style="min-height:100vh;">
+    <div class="col-12">
+    <h1 style="margin-top:100px; text-align:center; font-size: 50px">Pricing Overview</h1>
+    </div>
+      <div class="col-12 col-mg-6 col-lg-3 mb-4">
+        <ul class="price">
+          <li class="header ">FREE</li>
+          <li class="grey">$ 0.00 / year</li>
+          <li>10GB Storage</li>
+          <li class="grey"><a href="#" class="button">Host My Chatversity</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-mg-6 col-lg-3 mb-4">
+        <ul class="price">
+          <li class="header ">FREE</li>
+          <li class="grey">$ 0.00 / year</li>
+          <li>10GB Storage</li>
+          <li class="grey"><a href="#" class="button">Host My Chatversity</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-mg-6 col-lg-3 mb-4">
+        <ul class="price">
+          <li class="header ">FREE</li>
+          <li class="grey">$ 0.00 / year</li>
+          <li>10GB Storage</li>
+          <li class="grey"><a href="#" class="button">Host My Chatversity</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-mg-6 col-lg-3 mb-4">
+        <ul class="price">
+          <li class="header ">FREE</li>
+          <li class="grey">$ 0.00 / year</li>
+          <li>10GB Storage</li>
+          <li class="grey"><a href="#" class="button">Host My Chatversity</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-<div class="columns">
+ 
+
+<!-- <div class="columns">
   <ul class="price">
     <li class="header ">FREE</li>
     <li class="grey">$ 0.00 / year</li>
@@ -49,7 +89,7 @@
     <li>50GB Storage</li>
     <li class="grey"><a href="#" class="button">Host My Chatversity</a></li>
   </ul>
-</div>
+</div> -->
     
     <!--Footer Include-->
     <?php include("footer.php"); ?>
