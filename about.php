@@ -242,7 +242,7 @@
                 <div class="card-text">
                     <h3>Noah Osterhout</h3>
                     <span class="card-role">MEAN Stack Developer | Scrum Master</span> <br><br>
-                    <span class="card-bio-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
+                    <span class="card-bio-text">I’m Programmer focused on creating kick ass websites and software.</span>
                 </div>
             </div>
 
