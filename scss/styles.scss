@@ -69,7 +69,12 @@ h5 {
   line-height: normal;
 }
 h6 {
-
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 20px;
+  letter-spacing: 0.15px;
 }
 p {
   font-family: 'Nunito', sans-serif;
@@ -78,6 +83,14 @@ p {
   line-height: 28px;
   font-size: 16px;
   letter-spacing: 0.5px;
+}
+.body-2 {
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 20px;
+  font-size: 14px;
+  letter-spacing: 0.25px;
 }
 .overline {
   font-family: Roboto;
@@ -116,7 +129,8 @@ p {
 
 /* change the link color */
 #_primary-navigation .nav-link {
-  color: map-get($theme-colors, "light")
+  color: map-get($theme-colors, "light");
+  transition: 0.5s ease color;
 }
 
 /* change the color of active or hovered links */

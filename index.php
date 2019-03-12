@@ -99,7 +99,7 @@
          <!-- endRow 1 -->
          <!-- Row 2 -->
          <div class="row">
-           <div class="col-4"><div class="card"><p>lorem</p></div></div>
+           <div class="col-4"><div class="card shadow"><p>lorem</p></div></div>
            <div class="col-4"><div class="card"><p>lorem</p></div></div>
            <div class="col-4"><div class="card"><p>lorem</p></div></div>
          </div>
