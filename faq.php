@@ -11,7 +11,11 @@
     <?php include("navbar.php"); ?>
 
     <!-- FAQ Section -->
-    <div class="container-fluid text-center">
+    <div class="">
+        <h1>FAQs</h1>
+    </div>
+    <hr>
+    <div class="container text-center">
       <div class="accordion" id="accordionExample">
         <div class="card">
           <div class="card-header" id="headingOne">
@@ -162,5 +166,6 @@
       type="text/javascript"
       src="materialize-src/js/bin/materialize.min.js"
     ></script>
+
   </body>
 </html>
