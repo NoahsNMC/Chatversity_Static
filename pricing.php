@@ -20,76 +20,38 @@
     </div>
       <div class="col-12 col-mg-6 col-lg-3 mb-4">
         <ul class="price">
-          <li class="header ">FREE</li>
+          <li class="header ">Free</li>
           <li class="grey">$ 0.00 / year</li>
-          <li>10GB Storage</li>
+          <li>Engage with classmates in real-time over private chat or chatroom messaging</li>
           <li class="grey"><a href="#" class="button">Host My Chatversity</a></li>
         </ul>
       </div>
       <div class="col-12 col-mg-6 col-lg-3 mb-4">
         <ul class="price">
-          <li class="header ">FREE</li>
-          <li class="grey">$ 0.00 / year</li>
-          <li>10GB Storage</li>
+          <li class="header ">Basic</li>
+          <li class="grey">$ 9.99 / year</li>
+          <li>Engage with classmates in real-time over private chat or chatroom messaging</li>
           <li class="grey"><a href="#" class="button">Host My Chatversity</a></li>
         </ul>
       </div>
       <div class="col-12 col-mg-6 col-lg-3 mb-4">
         <ul class="price">
-          <li class="header ">FREE</li>
-          <li class="grey">$ 0.00 / year</li>
-          <li>10GB Storage</li>
+          <li class="header ">Plus</li>
+          <li class="grey">$ 24.99 / year</li>
+          <li>Engage with classmates in real-time over private chat or chatroom messaging</li>
           <li class="grey"><a href="#" class="button">Host My Chatversity</a></li>
         </ul>
       </div>
       <div class="col-12 col-mg-6 col-lg-3 mb-4">
         <ul class="price">
-          <li class="header ">FREE</li>
-          <li class="grey">$ 0.00 / year</li>
-          <li>10GB Storage</li>
+          <li class="header ">Premium</li>
+          <li class="grey">$ 49.99 / year</li>
+          <li>Engage with classmates in real-time over private chat or chatroom messaging</li>
           <li class="grey"><a href="#" class="button">Host My Chatversity</a></li>
         </ul>
       </div>
     </div>
   </div>
-
- 
-
-<!-- <div class="columns">
-  <ul class="price">
-    <li class="header ">FREE</li>
-    <li class="grey">$ 0.00 / year</li>
-    <li>10GB Storage</li>
-    <li class="grey"><a href="#" class="button">Host My Chatversity</a></li>
-  </ul>
-</div>
-
-<div class="columns">
-  <ul class="price">
-    <li class="header">Basic</li>
-    <li class="grey">$ 9.99 / year</li>
-    <li>10GB Storage</li>
-    <li class="grey"><a href="#" class="button">Host My Chatversity</a></li>
-  </ul>
-</div>
-
-<div class="columns">
-  <ul class="price">
-    <li class="header">Plus</li>
-    <li class="grey">$ 24.99 / year</li>
-    <li>25GB Storage</li>
-    <li class="grey"><a href="#" class="button">Host My Chatversity</a></li>
-  </ul>
-</div>
-
-<div class="columns">
-  <ul class="price">
-    <li class="header">Premium</li>
-    <li class="grey">$ 49.99 / year</li>
-    <li>50GB Storage</li>
-    <li class="grey"><a href="#" class="button">Host My Chatversity</a></li>
-  </ul>
-</div> -->
     
     <!--Footer Include-->
     <?php include("footer.php"); ?>
