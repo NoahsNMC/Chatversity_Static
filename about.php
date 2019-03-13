@@ -7,7 +7,7 @@
     <title>About | Chatversity</title>
 <style>
     .custom-page {
-    padding-top: 80px;
+    padding-top: 60px;
     }
 
     .page-padding {
@@ -58,12 +58,9 @@
 
     #img-phone {
     width: 100%;
-    max-width: 300px;
-    height: 400px;
     float: right;
     display: inline-block;
-    margin-right: 20px;
-    border: 1px solid black;
+    margin-right: 10px;
     }
 
     @media (max-width: 991px) {
@@ -123,6 +120,7 @@
 
     .card-role {
     color: #6c757d;
+    font-size: 18px;
     }
 
     .card-bio-text {
@@ -172,7 +170,7 @@
             <div id="about-chatversity">
                 <div class="row">
                     <div class="col-lg-4">
-                        <img src="#" id="img-phone">
+                        <img src="static/media/phone.png" id="img-phone">
                     </div>
                     <div class="col-lg-8 lead" id="about-lead">
                         Chatversity is a messaging app to connect college and university students with their peers. It was built by five college students with the goal of promoting and simplifying collaboration across college and university campuses. <br> <br>
@@ -229,8 +227,8 @@
             <div class="card-bio">
                 <div class="card-text">
                     <h3>Scott Peterson</h3>
-                    <span class="card-role">Front-end Developer | UI/UX Designer </span> <br><br>
-                    <span class="card-bio-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
+                    <span class="card-role">Front-end Developer | UI/UX Designer </span> <br> <br>
+                    <span class="card-bio-text">Scott has been a student at NMC since 2013, but he switched into the CIT program in 2015. Scott has an Associate degree in another program, and he is working towards the CIT Associate. Scott is also pursuing a Bachelor's degree in Computer Information Systems through Ferris State University.</span>
                 </div>
             </div>
         </div>
@@ -242,7 +240,7 @@
                 <div class="card-text">
                     <h3>Noah Osterhout</h3>
                     <span class="card-role">MEAN Stack Developer | Scrum Master</span> <br><br>
-                    <span class="card-bio-text">I’m Programmer focused on creating kick ass websites and software.</span>
+                    <span class="card-bio-text">Noah is a second-year student at Northwestern Michigan College in the CIT program. Noah describes himself as "<em>A programmer that is focused on creating kick ass websites and software</em>".</span>
                 </div>
             </div>
 
