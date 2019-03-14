@@ -109,7 +109,7 @@ p {
 // ==========================================================================
 // Generic Styles
 // ==========================================================================
-#_heroSection { height: calc(100vh - 74px); display: flex; align-items: center; }
+#_heroSection { height:auto; min-height: calc(100vh - 74px); display: flex; align-items: center; }
 
 // ==========================================================================
 // Navbar Styles
