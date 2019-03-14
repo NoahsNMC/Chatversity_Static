@@ -25,7 +25,7 @@
 
     .fixed-layer {
     position: fixed;
-    z-index: 0;
+    z-index: -1;
     }
 
     #about-chatversity {
@@ -145,7 +145,7 @@
                     <p class="text-light">
                     Chatversity is a messaging app to connect college and university students with their peers. It was built by five college students with the goal of promoting and simplifying collaboration across college and university campuses. <br> <br>
 
-                        <a href="contact.php" id="contact-us-btn" style="z-index:1;"><button class="btn btn-primary">Contact Us!</button></a>
+                        <a href="contact.php" id="contact-us-btn"><button class="btn btn-primary">Contact Us!</button></a>
                     </p>
                         
                     </div>
