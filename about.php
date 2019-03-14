@@ -7,7 +7,7 @@
     <title>About | Chatversity</title>
 <style>
     .custom-page {
-    padding-top: 60px;
+    padding-top: 40px;
     }
 
     .page-padding {
@@ -19,17 +19,6 @@
     color: #007bff;
     }
 
-    .float-right {
-    float: right;
-    }
-
-    .styled-btn {
-    padding: 5px 20px;
-    background-color: #282828;
-    color: white;
-    border: 1px solid black;
-    border-radius: 20px;
-    }
     .about-page {
     height: 100%;
     }
@@ -39,21 +28,9 @@
     z-index: 0;
     }
 
-    #about-lead {
-    color: #adb5bd;
-    }
-
     #about-chatversity {
     margin-left: 10%;
     margin-right: 10%;
-    }
-
-    .page-title {
-    margin-bottom: 30px;
-    }
-
-    #chatversity-logo-title {
-    width: 50px;
     }
 
     #img-phone {
@@ -61,23 +38,21 @@
     float: right;
     display: inline-block;
     margin-right: 10px;
+    margin-top: -40px;
     }
 
     @media (max-width: 991px) {
-    #img-phone {
-        display: none;
-    }
-    #chatversity-logo-title {
-        width: 40px;
-    }
-    .about-page {
-        height: auto;
-        min-height: 100%;
-        padding-bottom: 30px;
-    }
-    .fixed-layer {
-        position: relative;
-    }
+        #img-phone {
+            display: none;
+        }
+        .about-page {
+            height: auto;
+            min-height: 100%;
+            padding-bottom: 30px;
+        }
+        .fixed-layer {
+            position: relative;
+        }
     }
 
     #about-us {
@@ -118,44 +93,35 @@
     display: inline-block;
     }
 
-    .card-role {
-    color: #6c757d;
-    font-size: 18px;
-    }
-
-    .card-bio-text {
-    text-align: justify;
-    }
-
     .custom-line {
     color: #6c757d;
     width: 85%;
     }
 
     @media (max-width: 991px) {
-    .custom-card {
-        width: 100%;
-    }
-    .card-image {
-        display: block;
-        margin: 0 auto;
-    }
-    .card-bio {
-        display: block;
-        margin: 0 auto;
-        padding-left: 0;
-        text-align: center;
-        padding-top: 20px;
-        width: 100%;
-    }
-    .card-bio-left {
-        display: block;
-        margin: 0 auto;
-        padding-right: 0;
-        text-align: center;
-        padding-bottom: 20px;
-        width: 100%;
-    }
+        .custom-card {
+            width: 100%;
+        }
+        .card-image {
+            display: block;
+            margin: 0 auto;
+        }
+        .card-bio {
+            display: block;
+            margin: 0 auto;
+            padding-left: 0;
+            text-align: center;
+            padding-top: 20px;
+            width: 100%;
+        }
+        .card-bio-left {
+            display: block;
+            margin: 0 auto;
+            padding-right: 0;
+            text-align: center;
+            padding-bottom: 20px;
+            width: 100%;
+        }
     }
 </style>
 </head>
@@ -234,14 +200,14 @@
 
         <div class="custom-card container-fluid text-left">
             <div class="card-image">
-                <img src="#" style="width:200px; height: 200px;">
+                <img src="static/media/scott-pic.png" style="width:200px; height: 200px;">
             </div>
 
             <div class="card-bio">
                 <div class="card-text">
                     <span class="overline text-primary">Front-end Developer | UI/UX Designer </span>
                     <h3 class="text-secondary">Scott Peterson</h3>
-                    <p class="card-bio-text text-light">Scott has been a student at NMC since 2013, but he switched into the CIT program in 2015. Scott has an Associate degree in another program, and he is working towards the CIT Associate. Scott is also pursuing a Bachelor's degree in Computer Information Systems through Ferris State University.</p>
+                    <p class="text-light">Scott has been a student at NMC since 2013, but he switched into the CIT program in 2015. Scott has an Associate degree in another program, and he is working towards the CIT Associate. Scott is also pursuing a Bachelor's degree in Computer Information Systems through Ferris State University.</p>
                 </div>
             </div>
         </div>
@@ -273,7 +239,7 @@
                 <div class="card-text">
                     <span class="overline text-primary">MEAN Stack Developer</span>
                     <h3 class="text-secondary">Richie Tarkowski</h3>
-                    <p class="card-bio-text text-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p class="text-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </div>
             </div>
         </div> 
