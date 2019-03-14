@@ -37,6 +37,7 @@ html, body {
   font-family: "Poppins", "Nunito", "Proxima Nova", sans-serif;
   height: 100%;    // Cover Full Screen
   width: 100%;     // Cover Full Screen
+  margin-top:37px; // Compensate for fixed navbar
 }
 
 //
@@ -98,7 +99,7 @@ p {
   font-style: normal;
   font-weight: 500;
   line-height: 16px;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   display: block;
