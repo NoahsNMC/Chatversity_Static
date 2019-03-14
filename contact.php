@@ -18,27 +18,28 @@
     <!--Navbar Include-->
     <?php include("navbar.php"); ?>
 
-    <section class="d-flex align-items-center" style="height:100vh;">
+    <section class="d-flex align-items-center" style="min-height:100vh; height:auto;">
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-12">
-                <h1 class="text-center text-primary mb-4">Contact Us</h1>
+        <div class="row py-5">
+            <div class="col-lg-12 text-center">
+                <h1 class="text-secondary">Contact Us</h1>
+                <h5 class="text-primary">We'd love to hear from you</h5>
             </div>
-            <div class="col-sm-2"></div>
+        </div>
+        <div class="row">
             <!-- Contact info -->
-            <div class="col-sm-5">
-                <h3 class="text-secondary" style="font-size: 1.6em">We'd love to hear from you</h3>
-                <p>
+            <div class="col-12 col-sm-6 col-md-7 offset-md-1 col-lg-5 offset-lg-2">
+                <p class="text-light">
                     Please contact us if you have any questions or comments. We'd love to get user input to further
                     enhance your experience.
                 </p>
-                <p><span class="glyphicon glyphicon-map-marker mr-4"></span>385 Noah's Place Suite 878</p>
-                <p><span class="glyphicon glyphicon-earphone mr-4"></span>877-295-7945</p>
-                <p><span class="glyphicon glyphicon-envelope mr-4"></span>trash@noahosterhout.com</p>
+                <p><span class="glyphicon glyphicon-map-marker mr-4 text-primary"></span><a href="https://www.google.com/maps/place/NMC/@44.7653609,-85.5858994,15z/data=!4m5!3m4!1s0x0:0x6ea4d36989831337!8m2!3d44.7653609!4d-85.5858994">1701 E Front St<br />Traverse City, MI 49686</a></p>
+                <p><span class="glyphicon glyphicon-earphone mr-4 text-primary"></span><a href="tel:8772957945">877-295-7945</a></p>
+                <p><span class="glyphicon glyphicon-envelope mr-4 text-primary"></span><a href="mailto:info@chatversityapp.com">info@chatversityapp.com</a></p>
             </div>
             <!-- <div class="col-sm-1"></div> -->
             <!-- Contact form -->
-            <div class="col-sm-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4">
                 <form>
                     <input class="form-control" type="email" name="email" placeholder="Email">
                     <textarea class="form-control mt-4" name="message" placeholder="Leave some feedback...">
