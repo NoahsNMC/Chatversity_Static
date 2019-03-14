@@ -10818,7 +10818,8 @@ p {
 }
 
 #_heroSection {
-  height: calc(100vh - 74px);
+  height: auto;
+  min-height: calc(100vh - 74px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
