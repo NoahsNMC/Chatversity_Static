@@ -1,5 +1,5 @@
 <nav id="_primary-navigation" class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
-    <a class="navbar-brand" href="index.php"><img src="content/Group.png" alt=""></a>
+    <a class="navbar-brand" href="index.php"><img src="content/Logo.png" width="175px" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
