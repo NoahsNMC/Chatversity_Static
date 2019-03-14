@@ -31,23 +31,25 @@
           <li class="header ">Free</li>
           <li class="grey">$ 0.00 / year</li>
           <li>Engage with classmates in real-time over private chat or chatroom messaging</li>
-          <li class="grey"><a href="#" class="button">Host My Chatversity</a></li>
+          <li class="grey"><a href="#" class="btn btn-outline-primary">Host My Chatversity</a></li>
         </ul>
       </div>
       <div class="col-12 col-mg-6 col-lg-3 mb-4">
+        <div class="price-box">
         <ul class="price">
           <li class="header ">Basic</li>
           <li class="grey">$ 9.99 / year</li>
           <li>Engage with classmates in real-time over private chat or chatroom messaging</li>
-          <li class="grey"><a href="#" class="button">Host My Chatversity</a></li>
+          <li class="grey"><a href="#" class="btn btn-outline-primary">Host My Chatversity</a></li>
         </ul>
+        </div>
       </div>
       <div class="col-12 col-mg-6 col-lg-3 mb-4">
         <ul class="price">
           <li class="header ">Plus</li>
           <li class="grey">$ 24.99 / year</li>
           <li>Engage with classmates in real-time over private chat or chatroom messaging</li>
-          <li class="grey"><a href="#" class="button">Host My Chatversity</a></li>
+          <li class="grey"><a href="#" class="btn btn-outline-primary">Host My Chatversity</a></li>
         </ul>
       </div>
       <div class="col-12 col-mg-6 col-lg-3 mb-4">
@@ -55,7 +57,7 @@
           <li class="header ">Premium</li>
           <li class="grey">$ 49.99 / year</li>
           <li>Engage with classmates in real-time over private chat or chatroom messaging</li>
-          <li class="grey"><a href="#" class="button">Host My Chatversity</a></li>
+          <li class="grey"><a href="#" class="btn btn-outline-primary">Host My Chatversity</a></li>
         </ul>
       </div>
     </div>
@@ -70,7 +72,7 @@
     <script type="text/javascript" src="materialize-src/js/bin/materialize.min.js"></script>
 <style>
   *{
-    border-radius: 8px;
+    /* border-radius: 8px; */
   }
 
   .columns {
@@ -92,7 +94,8 @@
   }
 
   .price:hover {
-    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+    -webkit-box-shadow: 0px 4px 12px rgba(21, 157, 246, 0.2);
+    box-shadow: 0px 4px 12px rgba(21, 157, 246, 0.2);
   }
 
   .price .header {
@@ -110,16 +113,6 @@
   .price .grey {
     background-color: #eee;
     font-size: 20px;
-  }
-
-  .button {
-    background-color: #0E425F;
-    border: none;
-    color: white;
-    padding: 10px 25px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 15px;
   }
 
   @media only screen and (max-width: 100px) {
