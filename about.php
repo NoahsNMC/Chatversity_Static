@@ -7,7 +7,7 @@
     <title>About | Chatversity</title>
 <style>
     .custom-page {
-    padding-top: 80px;
+    padding-top: 60px;
     }
 
     .page-padding {
@@ -58,12 +58,9 @@
 
     #img-phone {
     width: 100%;
-    max-width: 300px;
-    height: 400px;
     float: right;
     display: inline-block;
-    margin-right: 20px;
-    border: 1px solid black;
+    margin-right: 10px;
     }
 
     @media (max-width: 991px) {
@@ -123,6 +120,7 @@
 
     .card-role {
     color: #6c757d;
+    font-size: 18px;
     }
 
     .card-bio-text {
@@ -176,7 +174,7 @@
             <div id="about-chatversity">
                 <div class="row">
                     <div class="d-none d-md-block col-lg-4">
-                        <img src="#" id="img-phone">
+                        <img src="static/media/phone.png" id="img-phone">
                     </div>
                     <div class="col-12 col-lg-8">
                     <p>
@@ -243,7 +241,7 @@
                 <div class="card-text">
                     <span class="overline text-primary">Front-end Developer | UI/UX Designer </span>
                     <h3 class="text-secondary">Scott Peterson</h3>
-                    <p class="card-bio-text text-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p class="card-bio-text text-light">Scott has been a student at NMC since 2013, but he switched into the CIT program in 2015. Scott has an Associate degree in another program, and he is working towards the CIT Associate. Scott is also pursuing a Bachelor's degree in Computer Information Systems through Ferris State University.</p>
                 </div>
             </div>
         </div>
@@ -255,7 +253,7 @@
                 <div class="card-text">
                     <span class="overline text-primary">MEAN Stack Developer | Scrum Master</span>
                     <h3 class="text-secondary">Noah Osterhout</h3>
-                    <p class="text-light">I’m Programmer focused on creating kick ass websites and software.</p>
+                    <p class="text-light">Noah is a second-year student at Northwestern Michigan College in the CIT program. Noah describes himself as "<em>A programmer that is focused on creating kick ass websites and software</em>".</p>
                 </div>
             </div>
 
