@@ -8,4 +8,15 @@
     <hr>
 
     <small>Copyright &copy; Chatversity 2019</small>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+	// get current URL path and assign 'active' class
+	var pathname = window.location.pathname;
+    console.log(pathname);
+    var test = $('.navbar-nav li a[href="'+pathname+'"]');
+    console.log(test);
+    $('.navbar-nav > li > a[href="'+pathname+'"]').parent().addClass('active');
+})
+</script> 
 </footer>
