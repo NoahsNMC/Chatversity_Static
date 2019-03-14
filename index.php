@@ -140,17 +140,32 @@
     <div class="container">
       <div class="row py-5">
         <div class="col-12 col-md-6 col-lg-4 offset-lg-1">
-          <img src="/content/home-task-management-feature.png" class="img-fluid" alt="Home Task Management Feature" />
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 offset-lg-1">
           <span class="overline text-primary">stay on target</span>
           <h3 class="text-secondary">Task Management</h3>
           <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 offset-lg-1">
+          <img src="/content/home-task-management-feature.png" class="img-fluid" alt="Home Task Management Feature" />
         </div>
       </div>
     </div>
   </section>
   <!-- end Task Management -->
+
+
+  <!-- Call to Action -->
+  <section class="section bg-lighter">
+  <div class="container py-5">
+    <div class="row py-5">
+      <div class="col-12 text-center">
+        <span class="overline text-primary">Get Started</span>
+        <h3 class="text-secondary">Start Using Chatversity Today</h3>
+        <a href="" class="btn btn-outline-primary btn-lg">Join Now</a>
+      </div>
+    </div>
+  </div>
+  </section>
+  <!-- end Call to Action -->
 
 
      <script type="text/javascript">
@@ -161,16 +176,6 @@
         });
      });
      </script>
-
-     <section style="height:2000px;">
-       <div class="container">
-        <div class="row">
-          <div class="col">
-
-          </div>
-        </div>
-       </div>
-     </section>
 
      <!--Footer Include-->
      <?php include("footer.php"); ?>
