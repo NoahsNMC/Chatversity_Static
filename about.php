@@ -174,7 +174,7 @@
                 <div class="card-text">
                     <span class="overline text-primary">MEAN Stack Developer | UI/UX Designer</span>
                     <h3 class="text-secondary">Connor Hansen</h3>
-                    <p class="text-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p class="text-light">A web developer with a passion for creativity and design. Currently, Connor builds interactive digital experiences at <a class="text-secondary" href="legendarylion.com">Legendary Lion Web Design</a> in Northern Michigan.<br><br><span><i class="fab fa-dribbble"></i></span></p>
                 </div>
             </div>
         </div>
@@ -186,7 +186,7 @@
                 <div class="card-text">
                     <span class="overline text-primary">Database Administrator (DBA)</span>
                     <h3 class="text-secondary">Cati Kujawski</h3>
-                    <p class="text-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p class="text-light">Cati is a part-time student at Ferris State University and is working on her Bachelor's degree in Computer Information Systems. She will be graduating in May 2020.</p>
                 </div>
             </div>
 
@@ -238,7 +238,7 @@
                 <div class="card-text">
                     <span class="overline text-primary">MEAN Stack Developer</span>
                     <h3 class="text-secondary">Richie Tarkowski</h3>
-                    <p class="text-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p class="text-light">Richie is a second-year student at NMC and is pursuing the Computer Information Systems Bachelor's degree at Ferris State University.  Currently, Richie automates test cases at <a class="text-secondary" href="https://www.hagerty.com/">Hagerty</a> in Northern Michigan.</p>
                 </div>
             </div>
         </div> 
