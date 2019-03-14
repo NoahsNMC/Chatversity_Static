@@ -14,7 +14,7 @@
      <!-- Hero Section -->
      <section id="_heroSection" class="section bg-white">
         <div class="container">
-            <div class="row align-items-center" style="min-height:100vh;">
+            <div class="row align-items-center">
               <div class="col-12 col-md-8">
                   <h1 class="text-secondary">Chat for 
                     <span class="text-secondary" id="#">
@@ -29,7 +29,7 @@
                   </div>
               </div>
               <div class="col-12 col-md-4">
-                <img class="img-fluid" src="content/home-feature.png" alt="">
+                <img class="img-fluid d-none d-md-block" src="content/home-feature.png" alt="">
               </div>
             </div>
            </div>
@@ -73,6 +73,7 @@
              <div id="_featuresWrap">
                <!-- Feature 1 -->
                <div class="feature">
+                 <img src="/content/track-courses-icon.png" width="48px" alt="">
                  <h6 class="text-secondary">Track Courses</h6>
                  <p class="text-light body-2">
                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -80,6 +81,7 @@
                </div>
                <!-- Feature 2 -->
                <div class="feature">
+               <img src="/content/view-assignment-icon.png" width="48px" alt="">
                  <h6 class="text-secondary">View Assignments</h6>
                  <p class="text-light body-2">
                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -87,6 +89,7 @@
                </div>
                <!-- Feature 3 -->
                <div class="feature">
+               <img src="/content/manage-task-icon.png" width="48px" alt="">
                  <h6 class="text-secondary">Manage Tasks</h6>
                  <p class="text-light body-2">
                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -98,14 +101,56 @@
          </div>
          <!-- endRow 1 -->
          <!-- Row 2 -->
-         <div class="row">
+         <!-- <div class="row">
            <div class="col-4"><div class="card shadow"><p>lorem</p></div></div>
            <div class="col-4"><div class="card"><p>lorem</p></div></div>
            <div class="col-4"><div class="card"><p>lorem</p></div></div>
-         </div>
+         </div> -->
          <!-- endRow 2 -->
        </div>
      </section>
+     <hr>
+
+     <style>
+     #_featuresWrap .feature img { position:absolute; transform: translateX(-150%); }
+     </style>
+
+
+    <!-- Better Chat -->
+    <section class="section py-5">
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-12 col-md-6 col-lg-4 offset-lg-1">
+          <img src="/content/home-phone-feature.png" class="img-fluid" alt="Home Phone Feature" />
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 offset-lg-1">
+          <span class="overline text-primary">Communicate</span>
+          <h3 class="text-secondary">Better Chat</h3>
+          <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end Better Chat -->
+
+
+
+    <!-- Task Management -->
+    <section class="section py-5">
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-12 col-md-6 col-lg-4 offset-lg-1">
+          <img src="/content/home-task-management-feature.png" class="img-fluid" alt="Home Task Management Feature" />
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 offset-lg-1">
+          <span class="overline text-primary">stay on target</span>
+          <h3 class="text-secondary">Task Management</h3>
+          <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end Task Management -->
 
 
      <script type="text/javascript">
