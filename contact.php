@@ -23,7 +23,7 @@
         <div class="row py-5">
             <div class="col-lg-12 text-center">
                 <h1 class="text-secondary">Contact Us</h1>
-                <h5 class="text-primary">We'd love to hear from you</h5>
+                <h5 class="text-primary">We'd love to hear from you!</h5>
             </div>
         </div>
         <div class="row">
@@ -40,7 +40,7 @@
             <!-- <div class="col-sm-1"></div> -->
             <!-- Contact form -->
             <div class="col-12 col-sm-6 col-md-4 col-lg-4">
-                <form>
+                <form action="" method="post">
                     <input class="form-control" type="email" name="email" placeholder="Email">
                     <textarea class="form-control mt-4" name="message" placeholder="Leave some feedback...">
                         </textarea>
@@ -50,6 +50,18 @@
         </div>
     </div>
 </section>
+
+    <?php 
+        $to = "info@chatversityapp.com";
+        $subject = "Chatversity";
+
+        if (isset($_POST['submit'])) {
+            $message = $_POST['message'];
+
+            mail($to,$subject,$message);
+        }
+    ?>
+
     <!--Footer Include-->
     <?php include("footer.php"); ?>
 
