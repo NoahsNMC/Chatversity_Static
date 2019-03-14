@@ -7,7 +7,7 @@
 
     <hr>
 
-    <small>Copyright &copy; Chatversity 2019</small>
+    <small class="text-muted">Copyright &copy; Chatversity 2019</small>
 
 <script type="text/javascript">
     $(document).ready(function() {

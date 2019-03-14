@@ -10732,11 +10732,11 @@ html, body {
   font-family: "Poppins", "Nunito", "Proxima Nova", sans-serif;
   height: 100%;
   width: 100%;
+  margin-top: 37px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   display: block;
-  .
 }
 
 h1 {
@@ -10811,10 +10811,20 @@ p {
   font-style: normal;
   font-weight: 500;
   line-height: 16px;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   display: block;
+}
+
+#_heroSection {
+  height: calc(100vh - 74px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #_primary-navigation {
@@ -10833,6 +10843,40 @@ p {
 
 #_primary-navigation {
   padding: 1rem 1rem;
+}
+
+/* change the brand and text color */
+#_primary-navigation #_primary-navigation,
+#_primary-navigation #_primary-navigation {
+  /* Or... Not?? */
+}
+
+/* change the link color */
+#_primary-navigation .nav-link {
+  color: #96B7C9;
+  -webkit-transition: 0.5s ease color;
+  transition: 0.5s ease color;
+}
+
+/* change the color of active or hovered links */
+#_primary-navigation .nav-item.active .nav-link,
+#_primary-navigation .nav-item:hover .nav-link {
+  color: #26B1FF;
+}
+
+/* for dropdown only - change the color of droodown */
+#_primary-navigation .dropdown-menu {
+  background-color: #ff5500;
+}
+
+#_primary-navigation .dropdown-item {
+  color: #ffffff;
+}
+
+#_primary-navigation .dropdown-item:hover,
+#_primary-navigation .dropdown-item:focus {
+  color: #333333;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 #custom-footer {
@@ -10875,36 +10919,4 @@ footer > hr {
   .footer-split {
     display: none;
   }
-/* change the brand and text color */
-#_primary-navigation #_primary-navigation,
-#_primary-navigation #_primary-navigation {
-  /* Or... Not?? */
-}
-
-/* change the link color */
-#_primary-navigation .nav-link {
-  color: #96B7C9;
-  -webkit-transition: 0.5s ease color;
-  transition: 0.5s ease color;
-}
-
-/* change the color of active or hovered links */
-#_primary-navigation .nav-item.active .nav-link,
-#_primary-navigation .nav-item:hover .nav-link {
-  color: #26B1FF;
-}
-
-/* for dropdown only - change the color of droodown */
-#_primary-navigation .dropdown-menu {
-  background-color: #ff5500;
-}
-
-#_primary-navigation .dropdown-item {
-  color: #ffffff;
-}
-
-#_primary-navigation .dropdown-item:hover,
-#_primary-navigation .dropdown-item:focus {
-  color: #333333;
-  background-color: rgba(255, 255, 255, 0.5);
 }

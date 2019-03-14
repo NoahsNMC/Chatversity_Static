@@ -165,9 +165,8 @@
     <!--Navbar Include-->
     <?php include("navbar.php"); ?>
 
-    <section class="custom-page container-fluid about-page">
+    <section class="container-fluid about-page">
         <div class="fixed-layer">
-            <div class="page-padding"> </div> 
             <div class="row py-5">
                 <div class="col-12">
                 <h1 class="text-center text-secondary">About Chatversity</h1>
@@ -179,7 +178,7 @@
                         <img src="#" id="img-phone">
                     </div>
                     <div class="col-12 col-lg-8">
-                    <p>
+                    <p class="text-light">
                     Chatversity is a messaging app to connect college and university students with their peers. It was built by five college students with the goal of promoting and simplifying collaboration across college and university campuses. <br> <br>
 
                         <a href="contact.php" id="contact-us-btn" style="z-index:1;"><button class="btn btn-primary">Contact Us!</button></a>
@@ -243,7 +242,7 @@
                 <div class="card-text">
                     <span class="overline text-primary">Front-end Developer | UI/UX Designer </span>
                     <h3 class="text-secondary">Scott Peterson</h3>
-                    <p class="card-bio-text text-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p class="text-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </div>
             </div>
         </div>
@@ -275,7 +274,7 @@
                 <div class="card-text">
                     <span class="overline text-primary">MEAN Stack Developer</span>
                     <h3 class="text-secondary">Richie Tarkowski</h3>
-                    <p class="card-bio-text text-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p class="text-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </div>
             </div>
         </div> 

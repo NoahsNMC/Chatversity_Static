@@ -18,7 +18,7 @@
     <!--Navbar Include-->
     <?php include("navbar.php"); ?>
 
-    <section class="d-flex align-items-center" style="min-height:100vh; height:auto;">
+    <section class="section d-flex" style="min-height:100vh;">
     <div class="container">
         <div class="row py-5">
             <div class="col-lg-12 text-center">

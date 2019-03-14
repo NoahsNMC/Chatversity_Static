@@ -12,12 +12,20 @@
 </head>
 <body>
 
+<div style="min-height:100vh;">
+<!-- Page intro -->
+<section class="section">
+  <div class="container">
+    <div class="row py-5">
+      <div class="col-12">
+        <h1 class="text-secondary">Pricing Overview</h1>
+      </div>
+    </div>
+  </div>
+</section>
  <!-- PRICING-TABLE CONTAINER -->
   <div class="container">
-    <div class="row align-items-center" style="min-height:100vh;">
-    <div class="col-12">
- <h1 style="margin-top:100px; text-align:center; font-size: 50px; color:#26B1FF">Pricing Overview</h1>
-    </div>
+    <div class="row align-items-center">
       <div class="col-12 col-mg-6 col-lg-3 mb-4">
         <ul class="price">
           <li class="header ">Free</li>
@@ -52,6 +60,8 @@
       </div>
     </div>
   </div>
+</div>
+
     
     <!--Footer Include-->
     <?php include("footer.php"); ?>
