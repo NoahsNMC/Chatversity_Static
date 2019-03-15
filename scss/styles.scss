@@ -38,6 +38,7 @@ html, body {
   height: 100%;    // Cover Full Screen
   width: 100%;     // Cover Full Screen
   margin-top:37px; // Compensate for fixed navbar
+  scroll-behavior: smooth;
 }
 
 //
@@ -158,69 +159,3 @@ p {
   color: #333333;
   background-color: rgba(255,255,255,.5);
 }
-
-// ==========================================================================
-// Footer Styles
-// ==========================================================================
-#custom-footer{
-  text-align: center;
-  padding: 30px;
-  background-color: #282828;
-  color: white;
-  position: relative;
-  z-index: 2;
-}
-.footer-split{
-  padding-left: 10px;
-  padding-right: 10px;
-  font-size: 1.2em;
-  color: $gray-100;
-}
-footer > hr{
-  background-color: white;
-  width: 60%;
-}
-.footer-link{
-  color: white;
-}
-.footer-link:hover{
-  color: white;
-  text-decoration: underline;
-}
-@media (max-width: 991px) {
-  .footer-link{
-    width: 100%;
-    display: block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-  .footer-split{
-    display: none;
-  }
-}
-// ==========================================================================
-// Home Page Styles
-// ==========================================================================
-
-
-
-// ==========================================================================
-// About Page Styles
-// ==========================================================================
-
-
-// ==========================================================================
-// Contact Page Styles
-// ==========================================================================
-
-
-
-// ==========================================================================
-// Pricing Page Styles
-// ==========================================================================
-
-
-
-// ==========================================================================
-// FAQ Page Styles
-// ==========================================================================

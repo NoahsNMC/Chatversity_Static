@@ -25,12 +25,23 @@
 
     .fixed-layer {
     position: fixed;
-    z-index: -1;
+    z-index: 0;
     }
 
-    #about-chatversity {
-    margin-left: 10%;
-    margin-right: 10%;
+    .hover-link:hover{
+        animation: rotate .3s;
+    }
+
+    @keyframes rotate {
+        0% {
+            transform: rotate(0deg); 
+        }
+        50% {
+            transform: rotate(45deg); 
+        }
+        100% {
+            transform: rotate(-45deg); 
+        }
     }
 
     #img-phone {
@@ -136,7 +147,7 @@
                 <h1 class="text-center text-secondary">About Chatversity</h1>
                 </div>
             </div>
-            <div id="about-chatversity">
+            <div style="margin-left: 10%; margin-right: 10%;">
                 <div class="row">
                     <div class="d-none d-md-block col-lg-4">
                         <img src="static/media/phone.png" id="img-phone">
@@ -145,7 +156,7 @@
                     <p class="text-light">
                     Chatversity is a messaging app to connect college and university students with their peers. It was built by five college students with the goal of promoting and simplifying collaboration across college and university campuses. <br> <br>
 
-                        <a href="contact.php" id="contact-us-btn"><button class="btn btn-primary">Contact Us!</button></a>
+                        <a href="/contact.php" id="contact-us-btn"><button class="btn btn-primary">Contact Us!</button></a>
                     </p>
                         
                     </div>
@@ -174,7 +185,7 @@
                 <div class="card-text">
                     <span class="overline text-primary">MEAN Stack Developer | UI/UX Designer</span>
                     <h3 class="text-secondary">Connor Hansen</h3>
-                    <p class="text-light">A web developer with a passion for creativity and design. Currently, Connor builds interactive digital experiences at <a class="text-secondary" href="legendarylion.com">Legendary Lion Web Design</a> in Northern Michigan.<br><br><span><i class="fab fa-dribbble"></i></span></p>
+                    <p class="text-light">A web developer with a passion for creativity and design. Currently, Connor builds interactive digital experiences at <a class="text-secondary" href="legendarylion.com">Legendary Lion Web Design</a> in Northern Michigan.<br><br><span><a class="text-secondary" href="https://hvnsen.com"><i class="fab fa-dribbble hover-link"></i></a></span></p>
                 </div>
             </div>
         </div>
@@ -218,7 +229,7 @@
                 <div class="card-text">
                     <span class="overline text-primary">MEAN Stack Developer | Scrum Master</span>
                     <h3 class="text-secondary">Noah Osterhout</h3>
-                    <p class="text-light">Noah is a second-year student at Northwestern Michigan College in the CIT program. Noah describes himself as "<em>A programmer that is focused on creating kick ass websites and software</em>".</p>
+                    <p class="text-light">Noah is a second-year student at Northwestern Michigan College in the CIT program. Noah describes himself as "<em>A programmer that is focused on creating kick ass websites and software</em>". <br><br><span><a class="text-secondary" href="https://noahosterhout.com/"><i class="fab fa-dribbble hover-link"></i></a></span></p>
                 </div>
             </div>
 
@@ -238,7 +249,7 @@
                 <div class="card-text">
                     <span class="overline text-primary">MEAN Stack Developer</span>
                     <h3 class="text-secondary">Richie Tarkowski</h3>
-                    <p class="text-light">Richie is a second-year student at NMC and is pursuing the Computer Information Systems Bachelor's degree at Ferris State University.  Currently, Richie automates test cases at <a class="text-secondary" href="https://www.hagerty.com/">Hagerty</a> in Northern Michigan.</p>
+                    <p class="text-light">Richie is a second-year student at NMC and is pursuing the Computer Information Systems Bachelor's degree at Ferris State University.  Currently, Richie automates test cases at <a class="text-secondary" href="https://www.hagerty.com/">Hagerty</a>.  <br><br><span><a class="text-secondary" href="https://richietarkowski.com"><i class="fab fa-dribbble hover-link"></i></a></span></p>
                 </div>
             </div>
         </div> 
@@ -246,7 +257,9 @@
     </section>
     
     <!--Footer Include-->
-    <?php include("footer.php"); ?>
+    <div  style="position: relative; z-index: 2;">
+        <?php include("footer.php"); ?>
+    </div>
 
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="materialize-src/js/bin/materialize.min.js"></script>

@@ -17,8 +17,8 @@
 <section class="section">
   <div class="container">
     <div class="row py-5">
-      <div class="col-12">
-        <h1 class="text-secondary">Pricing Overview</h1>
+      <div class="col-12 text-center">
+        <h1 class="text-secondary">Pricing Guide</h1>
       </div>
     </div>
   </div>
@@ -28,36 +28,56 @@
     <div class="row align-items-center">
       <div class="col-12 col-mg-6 col-lg-3 mb-4">
         <ul class="price">
-          <li class="header ">Free</li>
+          <li class="header "> &mdash; Free &mdash;</li>
           <li class="grey">$ 0.00 / year</li>
-          <li>Engage with classmates in real-time over private chat or chatroom messaging</li>
-          <li class="grey"><a href="#" class="btn btn-outline-primary">Host My Chatversity</a></li>
+          <li class="text-left">
+            <strong>100</strong> Users / Month <br>
+            <strong>30 Day</strong> Message Retention <br>
+            <strong>1mb</strong> Max File Size <br>
+            <strong>5,000</strong> Messages / Month <br>
+          </li>
+          <li class="grey"><a href="#" class="btn btn-secondary">Get Started!</a></li>
         </ul>
       </div>
       <div class="col-12 col-mg-6 col-lg-3 mb-4">
         <div class="price-box">
         <ul class="price">
-          <li class="header ">Basic</li>
+          <li class="header ">&mdash; Basic &mdash;</li>
           <li class="grey">$ 9.99 / year</li>
-          <li>Engage with classmates in real-time over private chat or chatroom messaging</li>
-          <li class="grey"><a href="#" class="btn btn-outline-primary">Host My Chatversity</a></li>
+          <li class="text-left">
+            <strong>500</strong> Users / Month <br>
+            <strong>45 Day</strong> Message Retention <br>
+            <strong>3mb</strong> Max File Size <br>
+            <strong>25,000</strong> Messages / Month <br>
+          </li>
+          <li class="grey"><a href="#" class="btn btn-secondary">Get Started!</a></li>
         </ul>
         </div>
       </div>
       <div class="col-12 col-mg-6 col-lg-3 mb-4">
         <ul class="price">
-          <li class="header ">Plus</li>
+          <li class="header ">&mdash; Plus &mdash;</li>
           <li class="grey">$ 24.99 / year</li>
-          <li>Engage with classmates in real-time over private chat or chatroom messaging</li>
-          <li class="grey"><a href="#" class="btn btn-outline-primary">Host My Chatversity</a></li>
+          <li class="text-left">
+            <strong>2,000</strong> Users / Month <br>
+            <strong>60 Day</strong> Message Retention <br>
+            <strong>5mb</strong> Max File Size <br>
+            <strong>100,000</strong> Messages / Month <br>
+          </li>
+          <li class="grey"><a href="#" class="btn btn-secondary">Get Started!</a></li>
         </ul>
       </div>
       <div class="col-12 col-mg-6 col-lg-3 mb-4">
         <ul class="price">
-          <li class="header ">Premium</li>
+          <li class="header ">&mdash; Premium &mdash;</li>
           <li class="grey">$ 49.99 / year</li>
-          <li>Engage with classmates in real-time over private chat or chatroom messaging</li>
-          <li class="grey"><a href="#" class="btn btn-outline-primary">Host My Chatversity</a></li>
+          <li class="text-left">
+            <strong>5,000</strong> Users / Month <br>
+            <strong>90 Day</strong> Message Retention <br>
+            <strong>10mb</strong> Max File Size <br>
+            <strong>250,000</strong> Messages / Month <br>
+          </li>
+          <li class="grey"><a href="#" class="btn btn-secondary">Get Started!</a></li>
         </ul>
       </div>
     </div>

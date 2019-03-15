@@ -18,7 +18,7 @@
     <!--Navbar Include-->
     <?php include("navbar.php"); ?>
 
-    <section class="section d-flex" style="min-height:100vh;">
+    <section class="section d-flex" style="min-height:100vh; margin-bottom: 30px;">
     <div class="container">
         <div class="row py-5">
             <div class="col-lg-12 text-center">
@@ -41,26 +41,26 @@
             <!-- Contact form -->
             <div class="col-12 col-sm-6 col-md-4 col-lg-4">
                 <form action="" method="post">
-                    <input class="form-control" type="email" name="email" placeholder="Email">
-                    <textarea class="form-control mt-4" name="message" placeholder="Leave some feedback...">
-                        </textarea>
+                    <input class="form-control" type="email" name="email" placeholder="Your Email Address" required>
+                    <textarea class="form-control mt-4" name="message" rows="5"> </textarea>
                     <input class="btn btn-primary btn-block mt-4" type="submit" value="Submit">
                 </form>
             </div>
+
+            <?php 
+                $to = "info@chatversityapp.com";
+                $subject = "Chatversity";
+
+                if (isset($_POST['submit'])) {
+                    $message = $_POST['message'];
+                    $email = $_POST['email'];
+
+                    mail($to,$subject,$message);
+                }
+            ?>
         </div>
     </div>
-</section>
-
-    <?php 
-        $to = "info@chatversityapp.com";
-        $subject = "Chatversity";
-
-        if (isset($_POST['submit'])) {
-            $message = $_POST['message'];
-
-            mail($to,$subject,$message);
-        }
-    ?>
+    </section>
 
     <!--Footer Include-->
     <?php include("footer.php"); ?>

@@ -22,7 +22,7 @@
                       <!-- TODO: add typed JS -->
                     </span>
                   </h1>
-                  <h5 class="text-light">Connecting and collaborating with your students and fellow classmates has never been easier.</h5>
+                  <h5 class="text-light">Connecting and collaborating with your fellow classmates has never been easier.</h5>
                   <div class="download-buttons mt-4">
                     <button class="btn btn-primary">I am a Student</button>
                     <button class="btn btn-outline-primary">I am a Teacher</button>
@@ -43,7 +43,7 @@
             <span class="overline text-primary">Chatversity</span>
             <h3 class="text-secondary">How Does it Work?</h3>
             <p class="text-light">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              When you <a href = "https://chatversity.app">Sign Up</a> for Chatversity, we ask you to select the college or university that you attend, along with your major and personal interests. Based on this information, we recommend groups and connections at your university to help you meet new people and make the most of your time at college.
             </p>
            </div>
            <div class="col-12 col-md-4">
@@ -61,10 +61,10 @@
          <div class="row py-5">
            <!-- left col -->
            <div class="col-12 col-md-5">
-            <span class="overline text-primary">Simplify your Life</span>
+            <span class="overline text-primary">Simplifying Communication</span>
             <h3 class="text-secondary">Why Chatversity?</h3>
             <p class="text-light">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Chatversity simplies communication for college students. With its intuitive layout and quick Sign Up process, Chatversity enables you to connect with your peers, join student groups, and communicate effectively.
             </p>
            </div>
            <!-- right col -->
