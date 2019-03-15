@@ -1,5 +1,5 @@
 <footer id="_chatversityFooter" class="bg-secondary">
-<div class="container  py-5">
+<div class="container py-5">
             <div class="row">
                 <div class="col-sm-3">
                     <h2 class="logo"><a href="#"><img src="/content/Logo-Light.png" alt="" width="150px"></a></h2>
@@ -7,24 +7,25 @@
                 <div class="col-sm-2">
                     <span class="overline text-lighter">Get started</span>
                     <ul>
-                        <li><a href="#" class="text-light">Home</a></li>
-                        <li><a href="#" class="text-light">Sign up</a></li>
-                        <li><a href="#" class="text-light">Downloads</a></li>
+                        <li><a href="/index.php" class="text-light">Home</a></li>
+                        <li><a href="#" class="text-light">Download</a></li>
+                        <li><a href="https://chatversity.app" class="text-light">Sign up</a></li>
+                        <li><a href="/pricing.php" class="text-light">Pricing</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-2">
                 <span class="overline text-lighter">About Us</span>
                     <ul>
-                        <li><a href="#" class="text-light">Company Information</a></li>
-                        <li><a href="#" class="text-light">Contact us</a></li>
+                        <li><a href="/about.php" class="text-light">About Chatversity</a></li>
+                        <li><a href="/about.php#about-us" class="text-light">Meet the Team</a></li>
                         <li><a href="#" class="text-light">Reviews</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-2">
                 <span class="overline text-lighter">Support</span>
                     <ul>
-                        <li><a href="#" class="text-light">FAQ</a></li>
-                        <li><a href="#" class="text-light">Help desk</a></li>
+                        <li><a href="/faq.php" class="text-light">FAQ</a></li>
+                        <li><a href="/contact.php" class="text-light">Contact Us</a></li>
                         <li><a href="#" class="text-light">Forums</a></li>
                     </ul>
                 </div>
@@ -35,7 +36,7 @@
                         <a href="#" class="facebook text-primary"><i class="fab fa-facebook"></i></a>
                         <a href="#" class="google text-primary"><i class="fab fa-google-plus"></i></a>
                     </div>
-                    <a href="/contact" class="btn btn-outline-primary btn-sm">Contact us</a>
+                    <a href="/contact.php" class="btn btn-outline-primary btn-sm">Contact us</a>
                 </div>
             </div>
         </div>

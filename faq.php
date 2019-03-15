@@ -5,21 +5,13 @@
     <?php include("head.php"); ?>
 
     <title>FAQ | Chatversity</title>
-    <style>
-     .card-head {
-
-     }
-     .card-body {
-
-     }
-    </style>
   </head>
   <body>
     <!--Navbar Include-->
     <?php include("navbar.php"); ?>
 
     <!-- FAQ Section -->
-    <section class="d-flex align-items-center" style="height:100vh;">
+    <section class="d-flex align-items-center" style="min-height:100vh; margin-bottom: 30px;">
       <div class="container-fluid">
       <div class="row">
         <div class="col-md-2">
@@ -51,8 +43,7 @@
                 data-parent="#accordionExample"
               >
                 <div class="card-body">
-                  Chatversity is a college/university communication app for students
-                  and teachers that help bring schools closer.
+                Chatversity is a messaging app to connect college and university students with their peers. Our goal is to promote and simplify communication so that students can make the most of their time at college.
                 </div>
               </div>
             </div>
@@ -78,9 +69,7 @@
                 data-parent="#accordionExample"
               >
                 <div class="card-body">
-                  Chatversity has 4 price tiers that are aimed at the Schools and
-                  not the students. If youre college supports Chatversity or your
-                  school is apart of our beta list, it is free to use.
+                Chatversity has four different plans (Free, Basic, Plus, and Premium). These plans are to be paid by the university, not the students. If your college is on our Beta list, Chatversity will not charge them. View our <a href="/pricing.php" class="text-secondary">Price Guide</a>.
                 </div>
               </div>
             </div>
@@ -95,7 +84,7 @@
                     aria-expanded="false"
                     aria-controls="collapseThree"
                   >
-                    Where can I get Chatversity?
+                    How can I access Chatversity?
                   </button>
                 </h2>
               </div>
@@ -106,8 +95,7 @@
                 data-parent="#accordionExample"
               >
                 <div class="card-body">
-                  Chatversity is free on iOS and Android. You can always access
-                  Chatversity from the web as well.
+                  You can download Chatversity for free on iOS and Android. You can also access <a href="https://chatversity.app" class="text-secondary">Chatversity</a> on the web.
                 </div>
               </div>
             </div>
@@ -133,9 +121,8 @@
                 data-parent="#accordionExample"
               >
                 <div class="card-body">
-                  Yes, to help keep cost down to schools we do collect data. You can
-                  see how we collect your data and how we store it
-                  <a href="https://chatversityapp.com/data-policy">here</a>.
+                  Yes. You can see how we collect and store your data
+                  <a class="text-secondary" href="https://chatversityapp.com/data-policy">Here</a>.
                 </div>
               </div>
             </div>
@@ -150,7 +137,7 @@
                     aria-expanded="false"
                     aria-controls="collapseFive"
                   >
-                    What colleges/universities are apart of Chatversity?
+                    Is my college/university set up with Chatversity?
                   </button>
                 </h2>
               </div>
@@ -161,8 +148,7 @@
                 data-parent="#accordionExample"
               >
                 <div class="card-body">
-                  Chatversity is primarily in Michigan and most Michigan schools are
-                  in our database.
+                  Most colleges and universities in the State of Michigan are. If your institution hasn't purchased one of our plans yet, ask a school's administrators to contact us about pricing and features.
                 </div>
               </div>
             </div>

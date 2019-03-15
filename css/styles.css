@@ -10733,6 +10733,7 @@ html, body {
   height: 100%;
   width: 100%;
   margin-top: 37px;
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -10878,46 +10879,4 @@ p {
 #_primary-navigation .dropdown-item:focus {
   color: #333333;
   background-color: rgba(255, 255, 255, 0.5);
-}
-
-#custom-footer {
-  text-align: center;
-  padding: 30px;
-  background-color: #282828;
-  color: white;
-  position: relative;
-  z-index: 2;
-}
-
-.footer-split {
-  padding-left: 10px;
-  padding-right: 10px;
-  font-size: 1.2em;
-  color: #f8f9fa;
-}
-
-footer > hr {
-  background-color: white;
-  width: 60%;
-}
-
-.footer-link {
-  color: white;
-}
-
-.footer-link:hover {
-  color: white;
-  text-decoration: underline;
-}
-
-@media (max-width: 991px) {
-  .footer-link {
-    width: 100%;
-    display: block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-  .footer-split {
-    display: none;
-  }
 }
