@@ -5,6 +5,9 @@
       <?php include("head.php"); ?>
 
       <title>Home | Chatversity</title>
+
+      <!--TypedJS-->
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
    </head>
 
    <body>
@@ -17,10 +20,17 @@
             <div class="row align-items-center">
               <div class="col-12 col-md-8">
                   <h1 class="text-secondary">Chat for 
-                    <span class="text-secondary" id="#">
-                      Students
-                      <!-- TODO: add typed JS -->
-                    </span>
+                    <span id="typed" class="text-primary"></span>
+                    <script>
+                      var typed = new Typed('#typed', {
+                          strings: ["Students", "Professors"],
+                          typeSpeed: 25,
+                          backSpeed: 25,
+                          startDelay: 500,
+                          backDelay: 2000,
+                          loop: true
+                      });
+                    </script>
                   </h1>
                   <h5 class="text-light">Connecting and collaborating with your fellow classmates has never been easier.</h5>
                   <div class="download-buttons mt-4">
