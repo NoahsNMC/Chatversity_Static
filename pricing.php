@@ -18,7 +18,8 @@
   <div class="container">
     <div class="row py-5">
       <div class="col-12 text-center">
-        <h1 class="text-secondary">Pricing Guide</h1>
+        <h1 class="text-secondary">Pricing Guide</h1> <br>
+        <p class="lead text-secondary">Find the <span class="text-primary">perfect plan</span> for your institution!</p>
       </div>
     </div>
   </div>

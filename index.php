@@ -24,8 +24,8 @@
                   </h1>
                   <h5 class="text-light">Connecting and collaborating with your fellow classmates has never been easier.</h5>
                   <div class="download-buttons mt-4">
-                    <button class="btn btn-primary">I am a Student</button>
-                    <button class="btn btn-outline-primary">I am a Teacher</button>
+                    <button style="margin-top:5px;" class="btn btn-primary">I am a Student</button>
+                    <button style="margin-top:5px;" class="btn btn-outline-primary">I am a Teacher</button>
                   </div>
               </div>
               <div class="col-12 col-md-4">
@@ -64,7 +64,7 @@
             <span class="overline text-primary">Simplifying Communication</span>
             <h3 class="text-secondary">Why Chatversity?</h3>
             <p class="text-light">
-              Chatversity simplies communication for college students. With its intuitive layout and quick Sign Up process, Chatversity enables you to connect with your peers, join student groups, and communicate effectively.
+              Chatversity simplies communication for college students. With its intuitive layout and quick Sign Up process, Chatversity enables you to connect with your peers, join groups, and communicate effectively. Several of its features include instant messaging, university-specific groups, and the ability to add connections.
             </p>
            </div>
            <!-- right col -->
@@ -74,25 +74,25 @@
                <!-- Feature 1 -->
                <div class="feature">
                  <img src="/content/track-courses-icon.png" width="48px" alt="">
-                 <h6 class="text-secondary">Track Courses</h6>
+                 <h6 class="text-secondary">Instant Messaging <span style="margin-left: 5px;"><i class="fa fa-check text-primary"></i></span></h6>
                  <p class="text-light body-2">
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Whether its a conversation with a friend or everybody in a student organization, Chatversity allows you to instantly send and receive messages so that you can stay in-touch.
                  </p>
                </div>
                <!-- Feature 2 -->
                <div class="feature">
                <img src="/content/view-assignment-icon.png" width="48px" alt="">
-                 <h6 class="text-secondary">View Assignments</h6>
+                 <h6 class="text-secondary">University-Specific Groups <span style="margin-left: 5px;"><i class="fa fa-check text-primary"></i></span></h6>
                  <p class="text-light body-2">
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Chatversity features groups that are unique to each registered university so that your group is only accessible by your peers.
                  </p>
                </div>
                <!-- Feature 3 -->
                <div class="feature">
                <img src="/content/manage-task-icon.png" width="48px" alt="">
-                 <h6 class="text-secondary">Manage Tasks</h6>
+                 <h6 class="text-secondary">Build Connections <span style="margin-left: 5px;"><i class="fa fa-check text-primary"></i></span></h6>
                  <p class="text-light body-2">
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    We think that one of the best ways to help students meet and connect with their peers is to allow users to build a friends lists, which we call your Connections.
                  </p>
                </div>
                <!-- endFeatures -->
@@ -126,7 +126,7 @@
         <div class="col-12 col-md-6 col-lg-4 offset-lg-1">
           <span class="overline text-primary">Communicate</span>
           <h3 class="text-secondary">Better Chat</h3>
-          <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p class="text-light">Chatversity offers the best way for college and university students to chat with their peers. Our app is built by and for students, with the purpose of improving, simplifying, and promoting communication.</p>
         </div>
       </div>
     </div>
@@ -142,7 +142,7 @@
         <div class="col-12 col-md-6 col-lg-4 offset-lg-1">
           <span class="overline text-primary">stay on target</span>
           <h3 class="text-secondary">Task Management</h3>
-          <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p class="text-light">Chatversity's built in task management system will assist students in staying focused on their work. We understand that college can be demanding and time-consuming, so we provide a simple way to help students stay on track.</p>
         </div>
         <div class="col-12 col-md-6 col-lg-4 offset-lg-1">
           <img src="/content/home-task-management-feature.png" class="img-fluid" alt="Home Task Management Feature" />
@@ -160,7 +160,7 @@
       <div class="col-12 text-center">
         <span class="overline text-primary">Get Started</span>
         <h3 class="text-secondary">Start Using Chatversity Today</h3>
-        <a href="" class="btn btn-outline-primary btn-lg">Join Now</a>
+        <a href="https://chatversity.app" class="btn btn-outline-primary btn-lg">Join Now</a>
       </div>
     </div>
   </div>

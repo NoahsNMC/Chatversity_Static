@@ -30,8 +30,8 @@
             <!-- Contact info -->
             <div class="col-12 col-sm-6 col-md-7 offset-md-1 col-lg-5 offset-lg-2">
                 <p class="text-light">
-                    Please contact us if you have any questions or comments. We'd love to get user input to further
-                    enhance your experience.
+                    Please contact us if you have any questions or comments. We'd love to get feedback to further
+                    enhance your experience with Chatversity.
                 </p>
                 <p><span class="glyphicon glyphicon-map-marker mr-4 text-primary"></span><a href="https://www.google.com/maps/place/NMC/@44.7653609,-85.5858994,15z/data=!4m5!3m4!1s0x0:0x6ea4d36989831337!8m2!3d44.7653609!4d-85.5858994">1701 E Front St<br />Traverse City, MI 49686</a></p>
                 <p><span class="glyphicon glyphicon-earphone mr-4 text-primary"></span><a href="tel:8772957945">877-295-7945</a></p>

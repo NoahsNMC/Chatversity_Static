@@ -247,7 +247,7 @@
 
             <div class="card-bio">
                 <div class="card-text">
-                    <span class="overline text-primary">MEAN Stack Developer</span>
+                    <span class="overline text-primary">MEAN Stack Developer | Editor</span>
                     <h3 class="text-secondary">Richie Tarkowski</h3>
                     <p class="text-light">Richie is a second-year student at NMC and is pursuing the Computer Information Systems Bachelor's degree at Ferris State University.  Currently, Richie automates test cases at <a class="text-secondary" href="https://www.hagerty.com/">Hagerty</a>.  <br><br><span><a class="text-secondary" href="https://richietarkowski.com"><i class="fab fa-dribbble hover-link"></i></a></span></p>
                 </div>
