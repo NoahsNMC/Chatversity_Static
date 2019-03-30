@@ -23,8 +23,8 @@
             </li>
         </ul>
         <div>
-            <a href="https://chatversity.app"><button class="btn btn-primary">Sign up</button></a>
-            <a href="https://chatversity.app"><button class="btn btn-link">Login</button></a>
+            <a href="https://chatversity.app/signup"><button class="btn btn-primary">Sign up</button></a>
+            <a href="https://chatversity.app/login"><button class="btn btn-link">Login</button></a>
         </div>
     </div>
 </nav>

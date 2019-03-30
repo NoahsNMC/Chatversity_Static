@@ -9,7 +9,7 @@
                     <ul>
                         <li><a href="/index.php" class="text-light">Home</a></li>
                         <li><a href="#" class="text-light">Download</a></li>
-                        <li><a href="https://chatversity.app" class="text-light">Sign up</a></li>
+                        <li><a href="https://chatversity.app/signup" class="text-light">Sign up</a></li>
                         <li><a href="/pricing.php" class="text-light">Pricing</a></li>
                     </ul>
                 </div>

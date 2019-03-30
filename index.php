@@ -34,8 +34,8 @@
                   </h1>
                   <h5 class="text-light">Connecting and collaborating with your fellow classmates has never been easier.</h5>
                   <div class="download-buttons mt-4">
-                    <button style="margin-top:5px;" class="btn btn-primary">I am a Student</button>
-                    <button style="margin-top:5px;" class="btn btn-outline-primary">I am a Teacher</button>
+                    <a href="https://chatversity.app/signup"><button style="margin-top:5px;" class="btn btn-primary">I am a Student</button></a>
+                    <a href="https://chatversity.app/signup"><button style="margin-top:5px;" class="btn btn-outline-primary">I am a Professor</button></a>
                   </div>
               </div>
               <div class="col-12 col-md-4">
@@ -53,7 +53,7 @@
             <span class="overline text-primary">Chatversity</span>
             <h3 class="text-secondary">How Does it Work?</h3>
             <p class="text-light">
-              When you <a href = "https://chatversity.app">Sign Up</a> for Chatversity, we ask you to select the college or university that you attend, along with your major and personal interests. Based on this information, we recommend groups and connections at your university to help you meet new people and make the most of your time at college.
+              When you <a href = "https://chatversity.app/signup">Sign Up</a> for Chatversity, we ask you to select the college or university that you attend, along with your major and personal interests. Based on this information, we recommend groups and connections at your university to help you meet new people and make the most of your time at college.
             </p>
            </div>
            <div class="col-12 col-md-4">
@@ -170,7 +170,7 @@
       <div class="col-12 text-center">
         <span class="overline text-primary">Get Started</span>
         <h3 class="text-secondary">Start Using Chatversity Today</h3>
-        <a href="https://chatversity.app" class="btn btn-outline-primary btn-lg">Join Now</a>
+        <a href="https://chatversity.app/signup" class="btn btn-outline-primary btn-lg">Join Now</a>
       </div>
     </div>
   </div>

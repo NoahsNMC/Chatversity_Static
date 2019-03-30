@@ -37,7 +37,7 @@
             <strong>1mb</strong> Max File Size <br>
             <strong>5,000</strong> Messages / Month <br>
           </li>
-          <li class="grey"><a href="#" class="btn btn-secondary">Get Started!</a></li>
+          <li class="grey"><button class="btn btn-secondary" onclick="displayPaymentAlert()">Get Started!</button></li>
         </ul>
       </div>
       <div class="col-12 col-mg-6 col-lg-3 mb-4">
@@ -51,7 +51,7 @@
             <strong>3mb</strong> Max File Size <br>
             <strong>25,000</strong> Messages / Month <br>
           </li>
-          <li class="grey"><a href="#" class="btn btn-secondary">Get Started!</a></li>
+          <li class="grey"><button class="btn btn-secondary" onclick="displayPaymentAlert()">Get Started!</button></li>
         </ul>
         </div>
       </div>
@@ -65,7 +65,7 @@
             <strong>5mb</strong> Max File Size <br>
             <strong>100,000</strong> Messages / Month <br>
           </li>
-          <li class="grey"><a href="#" class="btn btn-secondary">Get Started!</a></li>
+          <li class="grey"><button class="btn btn-secondary" onclick="displayPaymentAlert()">Get Started!</button></li>
         </ul>
       </div>
       <div class="col-12 col-mg-6 col-lg-3 mb-4">
@@ -78,9 +78,26 @@
             <strong>10mb</strong> Max File Size <br>
             <strong>250,000</strong> Messages / Month <br>
           </li>
-          <li class="grey"><a href="#" class="btn btn-secondary">Get Started!</a></li>
+          <li class="grey"><button class="btn btn-secondary" onclick="displayPaymentAlert()">Get Started!</button></li>
         </ul>
       </div>
+    </div>
+  </div>
+  <script>
+    function displayPaymentAlert(){
+      let msg = document.getElementById("payment-alert");
+      if(msg.style.display == "none"){
+        msg.style.display = "block";
+      }
+
+      msg.scrollIntoView(false);
+    }
+  </script>
+
+  <!--Payment Alert-->
+  <div class="container text-center mt-4 pb-4 mb-1" id="payment-alert" style="display:none;">
+    <div class="alert alert-danger" role="alert">
+      Finalized Pricing and Payment Mechanism Coming Soon!
     </div>
   </div>
 </div>
