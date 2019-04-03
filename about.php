@@ -158,7 +158,7 @@
                         Chatversity is a messaging app to connect college and university students with their peers. It was built by five college students with the goal of promoting and simplifying collaboration across college and university campuses. <br> <br>
                         This project began as the idea to develop a messaging app for students at our college, Northwestern Michigan College. However, we soon decided to expand the project scope and make it available to all colleges and universities across the state of Michigan. <br> <br>
                         Read more about each member in our team of five below! <br> <br> 
-                        <a href="/about.php#about-us" id="contact-us-btn"><button class="btn btn-secondary mt-2">Meet the Team!</button></a>
+                        <a href="#about-us" id="contact-us-btn"><button class="btn btn-secondary mt-2">Meet the Team!</button></a>
                         <a href="/contact.php" id="contact-us-btn"><button class="btn btn-primary mt-2">Contact Us!</button></a>
                     </p>
                         
